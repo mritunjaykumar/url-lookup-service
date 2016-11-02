@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 	"fmt"
-	"github.com/mritunjaykumar/alertDispatcher/api"
+	"github.com/mritunjaykumar/alertTester/api"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 	"encoding/json"
-	"github.com/mritunjaykumar/alertDispatcher/metrics"
+	"github.com/mritunjaykumar/alertTester/metrics"
 	"io/ioutil"
 	"os/exec"
 )
