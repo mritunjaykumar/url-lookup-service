@@ -24,7 +24,7 @@ func newURLDataProvider(args []string) *urlDataProvider {
 	m := new(urlDataProvider)
 	m.url = params.URL
 	m.database = params.Mongodb
-	log.Println("mongodb url:" + m.url)
+	log.Println("mongodb url: " + m.url)
 
 	var err error
 	m.session, err = mgo.Dial(m.url)

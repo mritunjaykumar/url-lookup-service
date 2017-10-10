@@ -21,7 +21,6 @@ func (p *params) getParams(conf string) error {
 	}
 
 	err = json.Unmarshal(config, p)
-
 	if err != nil {
 		fmt.Printf("config error: %v\n", err)
 		os.Exit(1)

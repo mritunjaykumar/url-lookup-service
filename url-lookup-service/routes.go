@@ -12,6 +12,7 @@ type route struct {
 	HandlerFunc http.HandlerFunc
 }
 
+// Get all routes
 func getRoutes(re *urlDataProvider) []route {
 	routes := make([]route, 0)
 	routes = append(routes,

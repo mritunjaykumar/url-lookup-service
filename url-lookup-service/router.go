@@ -16,11 +16,10 @@ func newRouter(re *urlDataProvider) *mux.Router {
 		handler = logger(handler, route.Name)
 
 		router.
-		Methods(route.Method).
+			Methods(route.Method).
 			Path(route.Pattern).
 			Name(route.Name).
 			Handler(handler)
 	}
-
 	return router
 }

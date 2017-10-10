@@ -25,7 +25,6 @@ func main() {
 		w.WriteHeader(http.StatusNotFound)
 		w.Write([]byte(fmt.Sprintf("%s not found.\n", r.URL)))
 	})
-
 	log.Printf("Starting the service on port 8090...")
 	log.Fatal(http.ListenAndServe(":8090", router))
 }
