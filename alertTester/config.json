@@ -1,5 +1,0 @@
-{
-  "Port" : 8082,
-  "KapacitorCLI" : "/Users/x4jk/work/src/github.com/influxdata/kapacitor/cmd/kapacitorExe",
-  "UDPListenerPortForMetrics": 8125
-}
